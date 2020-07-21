@@ -149,7 +149,7 @@ div[class*="star"] {
         line-height: 25px;
         font-weight: 700;
         font-style: italic;
-        margin: 5% 0 0 0;
+        margin: 0;
     }
 
     .header-bday{
@@ -231,7 +231,16 @@ div[class*="star"] {
         margin: 0 auto;
     }
 
-    .words-hbday,
+    .words-hbday {
+      margin: 0;
+    }
+
+    .words-hbday p {
+      width: 600px;
+      margin: 21px auto;
+      text-align: justify;
+    }
+
     .slider-hbday {
         display: none;
     }
@@ -261,6 +270,7 @@ div[class*="star"] {
     
     .header-bday div.star-gray {
         position: absolute;
+        bottom: 100px;
         width: 200px;
         right: 20%;
     }
