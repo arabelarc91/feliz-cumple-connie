@@ -154,7 +154,6 @@ div[class*="star"] {
         line-height: 25px;
         font-weight: 700;
         font-style: italic;
-        margin: 0;
     }
 
     .header-bday{
@@ -224,8 +223,6 @@ div[class*="star"] {
         line-height: 24px;
         color: pink;
         font-weight: bold;
-        position: relative;
-        z-index: 9;
     }
 
     .pictures-hbday__photos {
@@ -244,7 +241,7 @@ div[class*="star"] {
 
     .words-hbday p {
       width: 600px;
-      margin: 21px auto;
+      margin: 25px auto 50px auto;
       text-align: justify;
     }
 
@@ -319,6 +316,8 @@ div[class*="star"] {
     margin-top: 35px;
     color: pink;
     font-weight: bold;
+    position: relative;
+    z-index: 9;
 }
 
 [class|="confetti"] {
